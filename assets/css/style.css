@@ -1,0 +1,49 @@
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+p::first-line {
+  color: blue;
+}
+
+#return-menu {
+  text-align: center;
+}
+
+ul,
+footer {
+  display: flex;
+  margin: 0;
+  padding: 30px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aqua;
+}
+
+.logo {
+  text-align: center;
+  width: 100px;
+  height: 60px;
+}
+
+.flex-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  flex: 300px;
+  padding: 10px;
+  margin: 20px;
+  text-indent: 40px;
+}

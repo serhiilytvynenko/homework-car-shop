@@ -7,19 +7,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./assets/icons/oncoming-automobile.png" type="image/x-icon">
-  <style>
-    table,
-    tr,
-    th,
-    td {
-      border: 2px solid;
-    }
-  </style>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/table.css">
 </head>
 
 <body>
   <header>
-    <nav>
+    <nav id="navigation">
       <ul>
         <li><a href="#Ford">Ford</a></li>
         <li><a href="#Toyota">Toyota</a></li>
@@ -28,110 +22,138 @@
         <li><a href="./orderform.html">Order form</a></li>
       </ul>
     </nav>
-    <img src="./assets/img/auto-shop-logo-isolated-on-black-background-vector.jpg" alt="Логотип магазина">
   </header>
   <main>
     <h1>Car Shop</h1>
     <section id="Ford">
-      <h2>Ford</h2>
-      <div><img src="./assets/img/ford-logo-2003-1366x768.png" alt="ford logo">
+      <div class="section-header">
+        <h2>Ford</h2>
+        <a href="#navigation">return</a>
+        <img src="./assets/img/ford.png" class="logo" alt="ford logo">
       </div>
-      <article>
-        <h3>История бренда</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum minima reprehenderit totam aliquam, optio
-          consectetur, voluptate accusantium reiciendis laudantium sunt illo blanditiis id quisquam labore
-          necessitatibus culpa at? Officia rem ducimus fugit repellendus voluptatem! Voluptatibus provident accusantium
-          sit ullam nesciunt quaerat labore laudantium eum quas consequatur. Consectetur voluptatibus earum rem!</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque explicabo corporis sit sint facilis
-          mollitia voluptates pariatur voluptatem est consequuntur, fugiat qui hic tempora similique, perferendis
-          asperiores dolore quam sunt tenetur rerum debitis labore! Voluptas vitae voluptates repudiandae eaque neque.
-          Reiciendis dignissimos totam magni dolorum alias odit molestias non beatae.</p>
-      </article>
-      <article>
-        <h3>Краткое описание</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, exercitationem sunt! Dolor rem ducimus
-          ex, quo saepe asperiores magnam aut officia ipsa enim! Magni totam et optio, sint maxime, incidunt architecto
-          magnam tenetur aliquam labore hic exercitationem rem cupiditate enim commodi possimus obcaecati, ex error
-          tempora quos non? Atque, incidunt!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eum voluptates suscipit, id quaerat,
-          libero debitis distinctio asperiores maxime quo minus saepe? Aliquid omnis quis obcaecati totam voluptas
-          rerum, expedita nesciunt maiores quas modi perferendis, reprehenderit, unde perspiciatis ab assumenda.
-          Molestiae impedit doloremque laboriosam atque voluptas assumenda beatae quae nesciunt.</p>
-      </article>
-      <article>
-        <h3>Отзывы покупателей</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae ab veniam, explicabo expedita nam dignissimos
-          non voluptatibus distinctio reiciendis cum mollitia architecto ratione quia tempore sit corrupti dolorem
-          quibusdam! At.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat ipsa cumque porro impedit voluptatibus
-          enim eos fugiat maiores distinctio, itaque quam earum voluptatum magnam! Sed fugiat ratione aliquid facere
-          rerum?</p>
-      </article>
+      <div class="flex-container">
+        <article>
+          <h3>История бренда</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum minima reprehenderit totam aliquam, optio
+            consectetur, voluptate accusantium reiciendis laudantium sunt illo blanditiis id quisquam labore
+            necessitatibus culpa at? Officia rem ducimus fugit repellendus voluptatem! Voluptatibus provident
+            accusantium
+            sit ullam nesciunt quaerat labore laudantium eum quas consequatur. Consectetur voluptatibus earum rem!</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque explicabo corporis sit sint facilis
+            mollitia voluptates pariatur voluptatem est consequuntur, fugiat qui hic tempora similique, perferendis
+            asperiores dolore quam sunt tenetur rerum debitis labore! Voluptas vitae voluptates repudiandae eaque neque.
+            Reiciendis dignissimos totam magni dolorum alias odit molestias non beatae.</p>
+        </article>
+        <article>
+          <h3>Краткое описание</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, exercitationem sunt! Dolor rem
+            ducimus
+            ex, quo saepe asperiores magnam aut officia ipsa enim! Magni totam et optio, sint maxime, incidunt
+            architecto
+            magnam tenetur aliquam labore hic exercitationem rem cupiditate enim commodi possimus obcaecati, ex error
+            tempora quos non? Atque, incidunt!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eum voluptates suscipit, id quaerat,
+            libero debitis distinctio asperiores maxime quo minus saepe? Aliquid omnis quis obcaecati totam voluptas
+            rerum, expedita nesciunt maiores quas modi perferendis, reprehenderit, unde perspiciatis ab assumenda.
+            Molestiae impedit doloremque laboriosam atque voluptas assumenda beatae quae nesciunt.</p>
+        </article>
+        <article>
+          <h3>Отзывы покупателей</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae ab veniam, explicabo expedita nam
+            dignissimos
+            non voluptatibus distinctio reiciendis cum mollitia architecto ratione quia tempore sit corrupti dolorem
+            quibusdam! At.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat ipsa cumque porro impedit voluptatibus
+            enim eos fugiat maiores distinctio, itaque quam earum voluptatum magnam! Sed fugiat ratione aliquid facere
+            rerum?</p>
+        </article>
+      </div>
     </section>
     <section id="Toyota">
-      <h2>Toyota</h2>
-      <div><img src="./assets/img/toyota-loga.png" alt="toyota logo"></div>
-      <article>
-        <h3>История бренда</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam ratione voluptatum distinctio nulla, ea
-          maiores tenetur, officia voluptates adipisci esse incidunt deserunt libero vel rem temporibus quibusdam quia,
-          in consequatur optio ut similique facere? Perspiciatis nam, eos iste voluptate nemo iusto tempora? Explicabo
-          dolorum quibusdam nesciunt beatae ab ex corrupti.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut sed cum corrupti ducimus veritatis
-          temporibus voluptatibus! Reprehenderit saepe sint maiores ut aperiam debitis voluptatum nesciunt inventore,
-          nisi vel? Maxime veniam incidunt, dicta soluta ipsa voluptatum corrupti, suscipit, et doloribus pariatur
-          dolor! Aut eligendi amet nesciunt dolores, fuga earum nisi.</p>
-      </article>
-      <article>
-        <h3>Краткое описание</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laudantium deserunt sint velit animi nulla
-          ducimus, minima omnis adipisci sed cumque consectetur explicabo quos. Nisi consectetur dolorum eligendi
-          recusandae, laboriosam ullam nihil reprehenderit eius culpa praesentium labore. Illum, corrupti a!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cum voluptatibus itaque nesciunt cumque
-          mollitia nulla quaerat, officia, labore earum qui perferendis eveniet eum, iusto ab odio commodi saepe quis
-          ipsum sit quas doloribus? Voluptatum natus optio molestiae non praesentium omnis nesciunt dolores iste
-          eveniet!</p>
-      </article>
-      <article>
-        <h3>Отзывы покупателей</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, facere molestias illum dolore cum
-          voluptatibus!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati sit architecto aut eos eaque, officia
-          vel, totam illo unde adipisci velit quos pariatur deleniti saepe tempora autem nostrum vitae odio!</p>
-      </article>
+      <div class="section-header">
+        <h2>Toyota</h2>
+        <a href="#navigation">return</a>
+        <img src="./assets/img/toyota-loga.png" class="logo" alt="toyota logo">
+      </div>
+      <div class="flex-container">
+        <article>
+          <h3>История бренда</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam ratione voluptatum distinctio nulla, ea
+            maiores tenetur, officia voluptates adipisci esse incidunt deserunt libero vel rem temporibus quibusdam
+            quia,
+            in consequatur optio ut similique facere? Perspiciatis nam, eos iste voluptate nemo iusto tempora?
+            Explicabo
+            dolorum quibusdam nesciunt beatae ab ex corrupti.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut sed cum corrupti ducimus veritatis
+            temporibus voluptatibus! Reprehenderit saepe sint maiores ut aperiam debitis voluptatum nesciunt
+            inventore,
+            nisi vel? Maxime veniam incidunt, dicta soluta ipsa voluptatum corrupti, suscipit, et doloribus pariatur
+            dolor! Aut eligendi amet nesciunt dolores, fuga earum nisi.</p>
+        </article>
+        <article>
+          <h3>Краткое описание</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laudantium deserunt sint velit animi nulla
+            ducimus, minima omnis adipisci sed cumque consectetur explicabo quos. Nisi consectetur dolorum eligendi
+            recusandae, laboriosam ullam nihil reprehenderit eius culpa praesentium labore. Illum, corrupti a!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cum voluptatibus itaque nesciunt cumque
+            mollitia nulla quaerat, officia, labore earum qui perferendis eveniet eum, iusto ab odio commodi saepe
+            quis
+            ipsum sit quas doloribus? Voluptatum natus optio molestiae non praesentium omnis nesciunt dolores iste
+            eveniet!</p>
+        </article>
+        <article>
+          <h3>Отзывы покупателей</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, facere molestias illum dolore cum
+            voluptatibus!</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati sit architecto aut eos eaque, officia
+            vel, totam illo unde adipisci velit quos pariatur deleniti saepe tempora autem nostrum vitae odio!</p>
+        </article>
+      </div>
     </section>
     <section id="BMW">
-      <h2>BMW</h2>
-      <div><img src="./assets/img/bmw-loga.jpg" alt="MBW logo"></div>
-      <article>
-        <h3>История бренда</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iure officia quasi non neque est nihil alias,
-          voluptatum aut optio tempore quaerat quae nostrum nam iusto totam numquam ducimus cupiditate debitis quia
-          distinctio rerum beatae earum! Facilis dolor odit sapiente sed, facere natus molestiae expedita labore fugit
-          dolores quam iure sunt cupiditate rerum voluptatibus vero, atque cum ducimus nobis. Corporis.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam rem libero adipisci cum, velit distinctio,
-          suscipit ratione perspiciatis ut culpa incidunt quo. Sapiente quibusdam fugit, accusantium quo eius possimus!
-          Nemo laboriosam nostrum provident quaerat dignissimos veniam, cum qui odit a!</p>
-      </article>
-      <article>
-        <h3>Краткое описание</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sed nihil assumenda quibusdam, ratione sequi
-          corrupti sunt odit esse dolores nostrum beatae excepturi voluptatem temporibus perferendis ad, tempore magnam
-          tenetur amet, placeat eum rem fugit.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia libero minima consequatur dignissimos
-          accusamus officiis vitae. Optio aspernatur illo ullam eaque! Animi mollitia commodi sint veritatis rerum quae,
-          dicta natus iusto debitis autem in vero!</p>
-      </article>
-      <article>
-        <h3>Отзывы покупателей</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, dolorem.</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui rerum dolores blanditiis dolorem ipsam! Fugiat
-          qui illo magnam quis omnis!</p>
-      </article>
+      <div class="section-header">
+        <h2>BMW</h2>
+        <a href="#navigation">return</a>
+        <img src="./assets/img/Oplatek-na-tort-LOGO-BMW-Z-NAPISEM.jpeg" class="logo" alt="MBW logo">
+      </div>
+      <div class="flex-container">
+        <article>
+          <h3>История бренда</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iure officia quasi non neque est nihil
+            alias,
+            voluptatum aut optio tempore quaerat quae nostrum nam iusto totam numquam ducimus cupiditate debitis quia
+            distinctio rerum beatae earum! Facilis dolor odit sapiente sed, facere natus molestiae expedita labore fugit
+            dolores quam iure sunt cupiditate rerum voluptatibus vero, atque cum ducimus nobis. Corporis.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam rem libero adipisci cum, velit distinctio,
+            suscipit ratione perspiciatis ut culpa incidunt quo. Sapiente quibusdam fugit, accusantium quo eius
+            possimus!
+            Nemo laboriosam nostrum provident quaerat dignissimos veniam, cum qui odit a!</p>
+        </article>
+        <article>
+          <h3>Краткое описание</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sed nihil assumenda quibusdam, ratione
+            sequi
+            corrupti sunt odit esse dolores nostrum beatae excepturi voluptatem temporibus perferendis ad, tempore
+            magnam
+            tenetur amet, placeat eum rem fugit.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia libero minima consequatur dignissimos
+            accusamus officiis vitae. Optio aspernatur illo ullam eaque! Animi mollitia commodi sint veritatis rerum
+            quae,
+            dicta natus iusto debitis autem in vero!</p>
+        </article>
+        <article>
+          <h3>Отзывы покупателей</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, dolorem.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui rerum dolores blanditiis dolorem ipsam!
+            Fugiat
+            qui illo magnam quis omnis!</p>
+        </article>
+      </div>
     </section>
     <section>
+      <h2>Cars info</h2>
+      <div id="return-menu"><a href="#navigation">return</a></div>
       <table>
-        <h2>Cars info</h2>
         <caption id="cars-info">Table</caption>
         <thead>
           <tr>
@@ -205,8 +227,8 @@
 
   </main>
   <footer>
-    <address>Address: 44526 Archibald Fall, West Giuseppeville, Michigan</address>
-    <p>Contact: +380956973543</p>
-    <p>Author: Serhii Lytvynenko</p>
+    <div>Адрес: г. Запорожье, ул. Шевченка, д. 10</div>
+    <div>Контакты: тел. +380956873561, email: info@example.com</div>
+    <div>Автор: Сергей Литвиненко</div>
   </footer>
 </body>

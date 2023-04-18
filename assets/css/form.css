@@ -1,0 +1,113 @@
+:root {
+  font-size: 20px;
+}
+
+label+input:focus {
+  background-color: rgb(238, 166, 72);
+}
+
+
+#container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+fieldset {
+  width: 350px;
+  /* min-width: 300px;
+	max-width: 500px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.textarea-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.check-container {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.radio-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+datalist {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+}
+
+option {
+  padding: 0;
+}
+
+input[type='range'] {
+  width: 310px;
+  margin: 0;
+}
+
+#opt4,
+#opt6,
+#opt8 {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='datetime-local'] {
+  width: 200px;
+}
+
+legend {
+  text-align: center; /*у меня не срабатывает*/ 
+  font-size: 30px;
+}
+
+select {
+  min-width: 200px;
+}
+
+select>option {
+  font-size: 20px;
+}
+
+textarea {
+  width: 200px;
+}
+
+.button-container {
+  min-width: 200px;
+  max-width: 300px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+}
